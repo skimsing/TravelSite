@@ -1,0 +1,91 @@
+/* Banner */
+.mainHero{
+    background-color: #fefaf5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #335576;
+    padding: 5%;
+}
+.mainHero__right{
+    width: 60%;
+}
+.mainHero__left{
+    width: 40%;
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content: center;
+}
+#heroImg{
+    max-width: 70%;
+    float: right;
+}
+button{
+    border: none;
+    background-color: #db7a4e;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+#slogan{
+    font-weight: 700;
+    font-size: 2.75rem;
+}
+#sloganSub{
+    font-weight: 300;
+    font-size: 0.875rem;
+}
+/* Recommendation Cards */
+.mainDest{
+    padding: 5%;
+}
+.mainDest > h3 {
+    color: #335576;
+    font-weight: 700;
+    font-size: 1.85rem;
+}
+.mainDest__cardHolder{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.mainDest__card{
+    border-radius: 5px;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    min-width: 280px;
+    max-width: 280px;
+    min-height: 400px;
+    max-height: 400px;
+    position: relative;
+    
+}
+
+.mainDest__card > p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.55rem;
+    position: absolute;
+    bottom: -15px;
+    right: 20px;
+}
+.mainDest__hawaii{
+    background-image: url('./../assets/Images/hawaii.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+.mainDest__iceland{
+    background-image: url('./../assets/Images/iceland.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+.mainDest__greece{
+    background-image: url('./../assets/Images/greece.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
