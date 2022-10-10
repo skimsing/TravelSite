@@ -19,7 +19,7 @@
 }
 #heroImg{
     max-width: 70%;
-    float: right;
+    margin-left: 25%;
 }
 button{
     border: none;
@@ -47,6 +47,7 @@ button{
 }
 .mainDest__cardHolder{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 5%;
 }
